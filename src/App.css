@@ -1,0 +1,226 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.ant-layout-content{
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.ant-layout-header span{
+    margin-right: 15px;
+}
+.ant-layout-header span b{
+  background: #ccc;
+  color: #fff;
+}
+.active{
+  color: #61dafb
+}
+.settings{
+  padding: 15px;
+}
+.set{
+  margin-left: 45px;
+}
+.file{
+  width: 150px;
+  height: 150px;
+  border: solid #ccc 1px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  position: relative;
+}
+.file input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.file img{
+  width: 100%;
+  height: 100%;
+}
+.filter{
+  width: 100%;
+  height: 150px;
+  flex-shrink: 0;
+  border-bottom: solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.filter>div{
+  width: 50%;
+}
+.main_content{
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  overflow: auto;
+}
+.Dk{
+  width: 100%;
+  height: 100%;
+}
+.item{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+html,body,#root,.box{
+  width: 100%;
+  height: 100%;
+}
+.ant-layout-header{
+  background: #fff;
+}
+.wrapper,.ant-layout{
+  width: 100%;
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap{
+  width: 100%;
+  height: 100%;
+  background: url(http://localhost:3000//static/media/login-bg.04425a08.png) no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  display: flex;
+
+}
+.Navtitle{
+  width: 100%;
+  height: 190px;
+  padding-top: 40px;
+  text-align: center;
+}
+.Navtitle p{
+  color: #fff;
+  margin-top: 15px;
+}
+.imgs{
+  width: 60px;
+  height: 60px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.imgs img{
+  width: 100%;
+  height: 100%;
+}
+.left{
+  width: 50%;
+  height: 100%;
+  padding-top: 100px;
+  color: #eee;
+}
+.left p{
+    margin-left: 200px;
+}
+.left p:nth-child(2){
+  font-size: 20px;
+}
+.welcome{
+  font-size: 110px;
+  margin-bottom: 80px;
+
+}
+.right{
+  height: 100%; 
+  width: 50%;
+}
+.litle{
+  width: 50%;
+  height: 500px;
+  margin: 100px auto;
+  background: #fff;
+  border-radius:15px;
+}
+
+.top{
+  width: 100%;
+  height: 250px;
+  padding-top: 50px;
+  text-align: center;
+}
+.top span{
+  margin: 0 auto;
+  font-size: 50px;
+  color: #eee;
+  background: #666;
+  padding: 15px;
+  border-radius: 20px;
+ 
+}
+.top p{
+   margin-top: 50px;
+}
+.form{
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+}
+.form p{
+  width: 100%;
+  height: 45px;
+  border-bottom: solid #ccc 1px;
+}
+.form p input{
+  width: 100%;
+  height: 90%;
+  border: none;
+  outline: none;
+}
+.form p button{
+  width: 90%;
+  height: 90%;
+  border-radius: 25px;
+  background:blueviolet;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
